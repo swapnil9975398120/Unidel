@@ -37,7 +37,7 @@
     margin-left: -90px;
     padding: 10px;
     color: #0e52ae;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: 100;
@@ -45,6 +45,7 @@
 	position: relative;
 	    z-index: 1;
 }
+
 .company-logo-bottom p {
 	margin-left:40px;
 }
@@ -76,6 +77,9 @@
 .company-bottom-section .page-anchor  li {
     display: table-cell;
 }
+.company-bottom-section .page-anchor  li a.active{
+	color:black;
+}
 .company-bottom-section .page-anchor  li  a {
     color: #676767;
     text-decoration: none;
@@ -84,6 +88,9 @@
 .company-bottom-section .page-anchor  li  a:hover {
     color: #333;
 }
+.company-bottom-section-visited .page-anchor  li  a:visited {
+    color:black;
+}
 .company-bottom-section .table {
     border: 1px solid #ddd;
     font-family: 'Old Standard TT', serif;
@@ -91,7 +98,23 @@
 .company-bottom-section .table > tbody > tr > td {
 	border: 1px solid #ddd;
 }
+@media (max-width:1024px) {
 
+	.company-logo-bottom h2 {
+		background: rgba(255, 255, 255, 0.8);
+		margin-left: -90px;
+		padding: 10px;
+		color: #0e52ae;
+		font-size: 19px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		font-weight: 100;
+		margin-bottom: 0px;
+		position: relative;
+			z-index: 1;
+	}
+	
+}
 @media (max-width:911px) {
 	.company-top-section {
 		background-image: none;
@@ -123,6 +146,11 @@
 @media (max-width:767px) {
 	.company-logo-bottom h2 {
 		font-size: 18px;
+		letter-spacing: 1px;
+		padding: 0;
+	}
+	.company-logo-bottom-matrikon h2 {
+		font-size: 10px;
 		letter-spacing: 1px;
 		padding: 0;
 	}

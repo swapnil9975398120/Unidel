@@ -34,4 +34,21 @@ class UnidelController extends Controller
         return view('frontend.digital_electronics');
     }
 
+    public function electroslush()
+    {
+        return view('frontend.electroslush');
+    }
+    public function matrikon_softdel()
+    {
+        return view('frontend.matrikon_softdel');
+    }
+    public function ssd_drives()
+    {
+        return view('frontend.ssd_drives');
+    }
+    public function eurotherm_del()
+    {
+        return view('frontend.eurotherm_del');
+    }
+
   }
