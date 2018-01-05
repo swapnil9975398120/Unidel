@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 pull-right">
-				<div class="company-logo-block">
+				<div class="company-logo-block logo-div">
 					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/onlineresource/Online_Resources_Corporation.png">
 					<div class="company-arrow">
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-left.png"></a>

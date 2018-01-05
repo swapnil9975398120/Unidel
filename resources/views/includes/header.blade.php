@@ -10,7 +10,8 @@
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/about.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/company.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/lumasense.css">
-      
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/onlineresources.css">
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/land.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/matrikon.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/ssd.css">
 

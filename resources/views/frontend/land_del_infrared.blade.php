@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="col-md-7">
-				<div class="left-black-section">
+				<div class="left-black-section land-div">
 					<p><i class="fa fa-quote-left" aria-hidden="true"></i><br>Our partnership with UniDEL over the years has been both productive and rewarding. Post restructuring, we confidently expect this to continue to our mutual benefit.
 "</p>
 					<p class="left-black-bottom"><strong>Allan Imrie</strong>,<br>Vice President,<br>Ametek Corporation</p>

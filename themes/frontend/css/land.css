@@ -1,4 +1,4 @@
-.left-black-section.online-div{
+.left-black-section.land-div{
     padding: 210px 100px 93px 0;
     
 }
@@ -7,12 +7,12 @@
 }
 
 @media (max-width:911px) {
-	.left-black-section.online-div {
+	.left-black-section.land-div {
         padding: 40px 54px 55px 21px;
     }
 }
 @media (max-width:767px) {
-    .left-black-section .online-div {
+    .left-black-section .land-div {
         padding: 40px 110px 85px 40px;
     }
 }
