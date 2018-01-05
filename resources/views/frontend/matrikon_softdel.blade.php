@@ -53,36 +53,37 @@ The key success for this ODC was in understanding Matrikon’s diverse requireme
 				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/company/digital_electronics.jpg">
 			</div>
 			<div class="col-md-9">
-				<table class="table table-striped">
-					<tr>
-						<td><strong>Industry Sector</strong></td>
-						<td>Industrial Software</td>
-					</tr>						
-					<tr>			
-						<td><strong>Product Range / Services</strong></td>
-						<td>Process Optimisation Software</td>
-					</tr>
-					<tr>
-						<td><strong>End User Segment</strong></td>
-						<td>Oil & Gas, Power</td>
-					</tr>
-					<tr>
-						<td><strong>Geographic Focus</strong></td>
-						<td>India</td>
-					</tr>
-					<tr>
-						<td><strong>Company Profile at Investment Stage</strong></td>
-						<td>Start-up</td>
-					</tr>
-					<tr>
-						<td><strong>Company Profile at Exit Stage</strong></td>
-						<td>Fully developed India Product Development Centre</td>
-					</tr>
-					<tr>
-						<td><strong>UniDEL Value Add</strong></td>
-						<td>Operational set-up, scaling</td>
-					</tr>
-				</table>			
+			<table class="table table-striped">
+						<tr>			
+							<td><strong>Industry Sector</strong></td>
+							<td>{{ $data->industry_sector }}</td>
+						</tr>
+				<tr>			
+					<td><strong>Product Range / Services</strong></td>
+					<td>{{ $data->product_range }}</td>
+				</tr>
+				<tr>
+					<td><strong>End User Segment</strong></td>
+					<td>{{ $data->end_user_segment }}</td>
+				</tr>
+				<tr>
+					<td><strong>Geographic Focus</strong></td>
+					<td>{{ $data->geographic_focus }}</td>
+				</tr>
+				<tr>
+					<td><strong>Company Profile at Investment Stage</strong></td>
+					<td>{{ $data->company_profile_at_investment_stage }}</td>
+				</tr>
+				<tr>
+					<td><strong>Company Profile at Exit Stage</strong></td>
+					<td>{{ $data->company_profile_at_exit_stage }}</td>
+				</tr>
+				<tr>
+					<td><strong>UniDEL Value Add</strong></td>
+					<td>{{ $data->unidel_value_add }}</td>
+				</tr>
+				
+			</table>			
 			</div>
 		</div>
 	</div>

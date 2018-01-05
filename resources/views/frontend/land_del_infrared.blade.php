@@ -1,5 +1,5 @@
 @extends('layouts.frontend.app')
-@section('page_title','Unidel | Electroslush Pvt. Ltd')
+@section('page_title','Unidel | Land DEL Infrared Pvt. Ltd.')
 @section('page_css')
 
 @endsection
@@ -19,14 +19,15 @@
 					</div>
 				</div>
 				<div class="company-logo-bottom">
-					<h2>Electroslush Pvt. Ltd.</h2>
-					<p>Electroslush was founded by Kishore Dalal from the ground up to serve the growing Indian automotive and defence markets with sophisticated mechanical engineering components like dies, jigs, fixtures, fabrications etc. Electroslush invested in an advanced mechanical engineering tool room with state of the art equipment like milling machines, lathes, jog boring machines, bandsaws and shearing machines. In 1978 Electroslush was sold to Larsen & Toubro’s N. Ramakrishnan.</p>
+					<h2>Land DEL Infrared Pvt. Ltd.</h2>
+					<p>In 2005, UniDEL converted its decade long relation with Land Instruments International UK into a 50:50 joint venture company to focus on deeper penetration within the Indian Steel, Glass, Cement and Power industries. Another objective of the JV was to develop complimentary technology for global sale through the Land network. In mid 2006, post the acquisition of Land UK by Ametek Corporation USA, the partners decided to restructure the JV operations resulting in the acquisition of Land’s 50% shareholding by UniDEL.</p>
 				</div>
 			</div>
 			<div class="col-md-7">
 				<div class="left-black-section">
-					<p><i class="fa fa-quote-left" aria-hidden="true"></i><br>At a time when Indian manufacturers were heavily reliant on foreign technology, Electroslush achieved the distinction of becoming the number one indigenous tool room in Mumbai in the early 70?s. As a preferred and approved supplier to defence and automotive industries, we supplied press tools, jigs, fixtures, moulds and dies to customers like Vehicle Research & Defence Establishment, IBM, Premier Automobiles amongst many others."</p>
-					<p class="left-black-bottom"><strong>Anil B Wani</strong>,<br>Founding Team Member,<br>Electroslush</p>
+					<p><i class="fa fa-quote-left" aria-hidden="true"></i><br>Our partnership with UniDEL over the years has been both productive and rewarding. Post restructuring, we confidently expect this to continue to our mutual benefit.
+"</p>
+					<p class="left-black-bottom"><strong>Allan Imrie</strong>,<br>Vice President,<br>Ametek Corporation</p>
 				</div>
 			</div>
 		</div>
@@ -40,7 +41,7 @@
 			<li><a><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 			<li><a href="">Unidel Ventures</a></li>
 			<li><a><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-			<li><a href="">Electroslush</a></li>
+			<li><a href="" class="active">Land</a></li>
 		</ul>
 		<div class="row">
 			<div class="col-md-3">
@@ -48,40 +49,44 @@
 			</div>
 			<div class="col-md-9">
 				<table class="table table-striped">
-				   <tr>			
+					<tr>
 						<td><strong>Industry Sector</strong></td>
-						<td>{{ $data->industry_sector }}</td>
-					</tr>
+						<td>Process Control</td>
+					</tr>						
 					<tr>			
 						<td><strong>Product Range / Services</strong></td>
-						<td>{{ $data->product_range }}</td>
+						<td>Data Acquisition Systems, Controllers, Process Control Systems</td>
 					</tr>
 					<tr>
 						<td><strong>End User Segment</strong></td>
-						<td>{{ $data->end_user_segment }}</td>
+						<td>General Manufacturing</td>
 					</tr>
 					<tr>
 						<td><strong>Geographic Focus</strong></td>
-						<td>{{ $data->geographic_focus }}</td>
+						<td>South East Asia, Africa, Middle East</td>
 					</tr>
 					<tr>
 						<td><strong>Company Profile at Investment Stage</strong></td>
-						<td>{{ $data->company_profile_at_investment_stage }}</td>
+						<td>Small regional player</td>
 					</tr>
 					<tr>
 						<td><strong>Company Profile at Exit Stage</strong></td>
-						<td>{{ $data->company_profile_at_exit_stage }}</td>
+						<td>Niche player with #1 or #2 position in several product
+                        categories and end user segments                        
+                        </td>
 					</tr>
 					<tr>
 						<td><strong>UniDEL Value Add</strong></td>
-						<td>{{ $data->unidel_value_add }}</td>
+						<td>M&A, operational improvements, scaling</td>
 					</tr>
-					
 				</table>			
 			</div>
 		</div>
 	</div>
 </section>
+
+
+
 
 @endsection
 

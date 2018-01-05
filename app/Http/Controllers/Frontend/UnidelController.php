@@ -2,6 +2,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Profile;
 
 
 class UnidelController extends Controller
@@ -11,6 +12,7 @@ class UnidelController extends Controller
      *
      * @return void
      */
+
     public function __construct()
     {
 
@@ -31,24 +33,41 @@ class UnidelController extends Controller
     }
     public function digital_electronics()
     {
-        return view('frontend.digital_electronics');
+        $data = Profile::find('2');
+        return view('frontend.digital_electronics')
+                         ->with('data',$data);
     }
 
     public function electroslush()
     {
-        return view('frontend.electroslush');
+        $data = Profile::find('1');
+        
+        return view('frontend.electroslush')
+                    ->with('data',$data);
     }
     public function matrikon_softdel()
-    {
-        return view('frontend.matrikon_softdel');
+    { 
+        $data = Profile::find('3');
+        return view('frontend.matrikon_softdel')
+                    ->with('data',$data);
     }
     public function ssd_drives()
     {
-        return view('frontend.ssd_drives');
+        $data = Profile::find('4');
+        return view('frontend.ssd_drives')
+                ->with('data',$data);
     }
     public function eurotherm_del()
     {
-        return view('frontend.eurotherm_del');
+        $data = Profile::find('5');
+        return view('frontend.eurotherm_del')
+                  ->with('data',$data);
     }
+
+    public function land_del_infrared()
+    {
+        return view('frontend.land_del_infrared');
+    }
+    
 
   }
