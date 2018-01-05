@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-5 pull-right">
 				<div class="company-logo-block">
-					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/company/digital_electronics_logo.png">
+					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/ssddrives/SSD_Drives.png">
 					<div class="company-arrow">
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-left.png"></a>
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-right.png"></a>
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="col-md-7">
-				<div class="left-black-section">
+				<div class="left-black-section ssd-div">
 					<p><i class="fa fa-quote-left" aria-hidden="true"></i><br>The UniDEL Management is exceptionally knowledgeable and well connected with the heartbeat of Indian industry. They have enabled us to grow a business capable of competing on equal terms with the largest international players and have provided us with business opportunities in connected fields which we have subsequently emulated in other markets"</p>
 					<p class="left-black-bottom"><strong>Peter Vos</strong>,<br>General Manager,<br>Parker SSD Drives Europe</p>
 				</div>
@@ -44,7 +44,7 @@
 		</ul>
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/company/digital_electronics.jpg">
+				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/ssddrives/SSD_Drives_img.jpg">
 			</div>
 			<div class="col-md-9">
 			<table class="table table-striped">

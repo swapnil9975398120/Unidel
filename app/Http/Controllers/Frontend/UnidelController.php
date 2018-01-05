@@ -52,7 +52,7 @@ class UnidelController extends Controller
                     ->with('data',$data);
     }
     public function ssd_drives()
-    {
+    { 
         $data = Profile::find('4');
         return view('frontend.ssd_drives')
                 ->with('data',$data);
@@ -66,8 +66,28 @@ class UnidelController extends Controller
 
     public function land_del_infrared()
     {
-        return view('frontend.land_del_infrared');
+        $data = Profile::find('6');
+        return view('frontend.land_del_infrared')
+               ->with('data',$data);
     }
-    
+    public function parker_hannifin()
+    {
+        $data = Profile::find('7');
+        return view('frontend.parker_hannifin')
+               ->with('data',$data);
+    } 
+    public function lumasense_technologies()
+    {
+        $data = Profile::find('8');
+        return view('frontend.lumasense_technologies')
+               ->with('data',$data);
+    } 
+
+    public function online_resources()
+    {
+        $data = Profile::find('9');
+        return view('frontend.online_resources')
+               ->with('data',$data);
+    } 
 
   }

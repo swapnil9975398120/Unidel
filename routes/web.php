@@ -23,5 +23,8 @@ Route::get('/matrikon_softdel', 'Frontend\UnidelController@matrikon_softdel');
 Route::get('/ssd_drives', 'Frontend\UnidelController@ssd_drives');
 Route::get('/eurotherm_del', 'Frontend\UnidelController@eurotherm_del');
 Route::get('/land_del_infrared', 'Frontend\UnidelController@land_del_infrared');
+Route::get('/parker_hannifin', 'Frontend\UnidelController@parker_hannifin');
+Route::get('/lumasense_technologies', 'Frontend\UnidelController@lumasense_technologies');
+Route::get('/online_resources', 'Frontend\UnidelController@online_resources');
 
 

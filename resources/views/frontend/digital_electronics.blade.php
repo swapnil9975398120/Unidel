@@ -40,7 +40,7 @@
 			<li><a><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 			<li><a href="">Unidel Ventures</a></li>
 			<li><a><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
-			<li><a href="">Digital Electronics</a></li>
+			<li><a href="" class="active">Digital Electronics</a></li>
 		</ul>
 		<div class="row">
 			<div class="col-md-3">

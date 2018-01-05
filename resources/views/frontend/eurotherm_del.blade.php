@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-5 pull-right">
 				<div class="company-logo-block">
-					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/company/digital_electronics_logo.png">
+					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/eurotherm/Eurotherm.png">
 					<div class="company-arrow">
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-left.png"></a>
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-right.png"></a>
@@ -46,7 +46,7 @@ Through his vision, laser sharp focus and commitment to grow the Eurotherm busin
 		</ul>
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/company/digital_electronics.jpg">
+				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/eurotherm/Eurotherm_img.jpg">
 			</div>
 			<div class="col-md-9">
 			<table class="table table-striped">

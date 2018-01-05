@@ -10,7 +10,7 @@
     background-position: center;
 }
 .company-top-section .left-black-section {
-    padding: 150px 100px 150px 0;
+    padding: 130px 100px 93px 0;
     color: #fff;
     background: url(../images/company/black-bg.jpg);
     background-size: cover;
@@ -41,7 +41,7 @@
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: 100;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 	position: relative;
 	    z-index: 1;
 }
@@ -101,6 +101,7 @@
 @media (max-width:1024px) {
 
 	.company-logo-bottom h2 {
+		margin-top: 4px;
 		background: rgba(255, 255, 255, 0.8);
 		margin-left: -90px;
 		padding: 10px;
@@ -112,6 +113,9 @@
 		margin-bottom: 0px;
 		position: relative;
 			z-index: 1;
+	}
+	.left-black-bottom{
+		margin-top:46px;
 	}
 	
 }

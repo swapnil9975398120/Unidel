@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-5 pull-right">
 				<div class="company-logo-block">
-					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/company/digital_electronics_logo.png">
+					<img class="img-responsive center-block" src="{{ asset('themes/frontend') }}/images/matrikon/Matrikon-SoftDEL.png">
 					<div class="company-arrow">
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-left.png"></a>
 						<a href=""><img class="img-responsive logo-arrow" src="{{ asset('themes/frontend') }}/images/company/arrow-right.png"></a>
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="col-md-7">
-				<div class="left-black-section">
+				<div class="left-black-section matrikon-div">
 					<p><i class="fa fa-quote-left" aria-hidden="true"></i><br>Matrikon’s Offshore Development Center started out within SoftDEL with a strong and clear vision driven by the leaders of the two companies to build a world class development and services center to serve Matrikon entities worldwide.
 
 The key success for this ODC was in understanding Matrikon’s diverse requirements and building a strong, committed and dedicated core team in a short period of time. This paired with SoftDEL’s world class infrastructure provided Matrikon with a turn-key operation as the ODC transitioned into a joint venture structure.
@@ -39,7 +39,7 @@ The key success for this ODC was in understanding Matrikon’s diverse requireme
 	</div>
 </section>
 
-<section class="company-bottom-section">
+<section class="company-bottom-section ">
 	<div class="container">
 		<ul class="page-anchor">
 			<li><a href="">Company</a></li>
@@ -50,7 +50,7 @@ The key success for this ODC was in understanding Matrikon’s diverse requireme
 		</ul>
 		<div class="row">
 			<div class="col-md-3">
-				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/company/digital_electronics.jpg">
+				<img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/matrikon/Matrikon_SoftDEL_img.jpg">
 			</div>
 			<div class="col-md-9">
 			<table class="table table-striped">

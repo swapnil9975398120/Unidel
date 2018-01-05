@@ -1,0 +1,15 @@
+
+
+.left-black-section.ssd-div{
+    padding: 187px 81px 93px 0;
+}
+@media (max-width:911px) {
+	.left-black-section.ssd-div {
+        padding: 40px 54px 55px 21px;
+    }
+}
+@media (max-width:767px) {
+    .left-black-section .ssd-div {
+        padding: 40px 110px 85px 40px;
+    }
+}
