@@ -1,0 +1,47 @@
+.great-idea-careers h2, .great-idea-careers h3{
+	letter-spacing: 10px;
+}
+.openings-inner-wrap {
+    position: relative;
+    min-height: 220px;
+    margin-bottom: 50px;    
+}
+.openings-inner-wrap h3{
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	/*letter-spacing: 5px;*/
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+.openings-inner-wrap p{
+	font-size: 16px;
+}
+.position-wrap {
+    position: absolute;
+    bottom: 0;
+}
+.position-wrap p{text-transform: capitalize;}
+
+
+
+/*******************************Media Queries*******************************/
+
+
+@media(max-width: 1200px){
+
+}
+@media(max-width: 992px){
+	
+}
+@media(max-width: 768px){
+	.openings-inner-wrap h3{
+		letter-spacing: 5px;
+		    font-size: 25px;
+	}
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 480px){
+	
+}

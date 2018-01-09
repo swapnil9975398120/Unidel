@@ -3,6 +3,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Profile;
+use App\Models\careers;
 
 
 class UnidelController extends Controller
@@ -89,5 +90,17 @@ class UnidelController extends Controller
         return view('frontend.online_resources')
                ->with('data',$data);
     } 
+
+    public function careers(){
+        $data =Careers::find('1');
+        return view('frontend.careers')
+              ->with('data',$data);
+    }
+
+    public function news_room(){
+      
+        return view('frontend.news_room');
+
+    }
 
   }

@@ -26,5 +26,6 @@ Route::get('/land_del_infrared', 'Frontend\UnidelController@land_del_infrared');
 Route::get('/parker_hannifin', 'Frontend\UnidelController@parker_hannifin');
 Route::get('/lumasense_technologies', 'Frontend\UnidelController@lumasense_technologies');
 Route::get('/online_resources', 'Frontend\UnidelController@online_resources');
-
+Route::get('/careers', 'Frontend\UnidelController@careers');
+Route::get('/news_room', 'Frontend\UnidelController@news_room');
 

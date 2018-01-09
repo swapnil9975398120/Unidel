@@ -256,6 +256,56 @@
 });
   
    </script>
+   <script type="text/javascript">
+     $(document).ready(function(){
+        $('.news-slider').slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          autoplay: false,
+          responsive:[
+            {
+              breakpoint:1030,
+              settings:{
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          },
+            {
+              breakpoint:992,
+              settings:{
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+              breakpoint:800,
+              settings:{
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          },
+
+            {
+              breakpoint:480,
+              settings:{
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+            }
+
+          ]
+        });
+});
+  
+   </script>
    
   <!--  <script type="text/javascript">
       jQuery(document).on('ready', function() {
