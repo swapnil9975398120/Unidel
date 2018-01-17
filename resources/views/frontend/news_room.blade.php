@@ -9,7 +9,7 @@
   <img class="img-responsive img-100" src="{{ asset('themes/frontend') }}/images/newsroom/bannerimg.jpg">
         <div class="container">
           <div class="about-caption">
-              <div class="about-txt">
+              <div class="about-txt news-txt">
                 <h1>NEWS</h1>
                 <h2>ROOM</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="col-md-5 col-sm-5 ">
-          <div class="unidel-txt">
+          <div class="unidel-txt news-room">
             <h2><span>LATEST</span></h2>
 
             <div class="know-more-txt">

@@ -1,0 +1,41 @@
+/* .cookies .know-more-img img {
+    float: left;
+    filter: grayscale(0%);
+    transition: all 0.4s; 
+} */
+
+/* .cookies-txt {
+    padding: 39px 40px 0 40px;
+ } */
+ .cooki-text-wrapper {
+    /* margin: 43px 0; */
+    margin-bottom: 50px;
+}
+.cook{
+    padding: 0px;
+}
+
+ .cookies-title-bg{
+     background-image: url(../images/cookies/tile-1.jpg) !important;
+ }
+ .cookies-title-bg h2{
+     font-size: 23px !important;
+     padding-left: 35px !important;      
+     letter-spacing: 6px !important;
+     line-height: 40px !important;
+ }
+
+ .cookie-txt {
+    padding: 0 0px 0 40px !important;
+}
+ul{
+    font-family: 'Old Standard TT', serif;
+}
+@media(max-width: 768px){
+    .cookies-title-bg h2{
+        font-size: 19px !important;
+        padding-left: 3px !important;
+    }
+   
+  
+}

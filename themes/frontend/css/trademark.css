@@ -1,0 +1,52 @@
+section.trademark-sec-1{
+	background-image: url('../images/trademark/trademark-banner.jpg');
+	min-height: 540px;
+	background-repeat: no-repeat;
+}
+.trademark-sec-1 h2{
+	color: #000;
+	    margin-top: 60px;
+	        letter-spacing: 10px;
+}
+.trademark-sec-1 h2 span{
+	color: #0e52ae;
+}
+li.vertical-line {
+    padding: 0 10px;
+}
+.company-bottom-section .page-anchor li a.active-anchor {
+    color: #000;
+}
+.slick-slide:focus {
+    outline: none;
+}
+
+/**********************Media Queires/**********************/
+
+@media(max-width: 1200px){
+	
+}
+@media(max-width: 992px){
+	
+}
+@media(max-width: 768px){
+	section.trademark-sec-1{
+		min-height: auto;
+    background: #fff;
+	}
+}
+@media(max-width: 480px){
+	.trademark-sec-1 h2{
+		margin-top: 20px;
+	}
+	/*section.trademark-sec-1{
+		min-height: auto;
+    background: #fff;
+	}*/
+}
+
+@media(max-width: 320px){
+	li.vertical-line {
+ 	   padding: 0 5px;
+	}
+}

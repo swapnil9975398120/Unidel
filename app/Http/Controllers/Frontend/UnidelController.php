@@ -103,4 +103,24 @@ class UnidelController extends Controller
 
     }
 
+    public function cookies(){
+          return view('frontend.cookies');
+      }
+
+      public function terms_of_use(){
+        return view('frontend.terms_of_use');
+      }
+
+    public function privacy(){
+        return view('frontend.privacy');
+     }
+
+    public function unidel_code_of_conduct(){
+        return view('frontend.unidel_code_of_conduct');
+    }
+
+      public function trademark(){
+        return view('frontend.trademark');
+        } 
+
   }

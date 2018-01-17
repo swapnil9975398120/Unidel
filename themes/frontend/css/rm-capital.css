@@ -1,0 +1,131 @@
+.unidel-group-rmcapital{
+     padding-bottom: 145px !important;
+}
+ .unidel-group-rmcapital .about-capital-p{
+     margin-top: 36px;
+}
+ .unidel-group-rmcapital .unidel-txt span{
+     opacity: 0.79;
+}
+ .capital-details-section .title-capital-author h2 {
+     line-height: 45px;
+     letter-spacing: 15px;
+     font-size: 32px;
+}
+ .capital-details-section .title-capital-author {
+     padding-bottom: 30px;
+     background-color: #f2f2f2;
+     width: 60%;
+     padding-left: 50px;
+     padding-top: 10px;
+}
+span.capital-city-title{
+     padding-left: 50px;
+     font-family: 'Old Standard TT', serif;
+}
+ .capital-details-section .capital-txt{
+     padding:35px 0px 0 40px;
+
+}
+ .title-bg {
+     background-image: url(../images/rm_capital/title.jpg);
+     background-size: cover;
+     height: auto;
+}
+ .capital-details-section .border-blck-line {
+     padding-bottom: 25px;
+     padding-top: 47px;
+     padding-left: 50px;
+}
+ .title-bg h2{
+     padding-top: 10px;
+     padding-left: 50px;
+     font-size: 32px;
+     width: 112%;
+     line-height: 50px;
+}
+.tagline{
+     text-transform: uppercase;
+     font-size: 23px;
+     font-family: 'Cabin', sans-serif;
+     letter-spacing: 5px;
+}
+/*.text-wrapper-about-div{
+  margin-left: 80px
+}*/
+
+ .row-top-spacing{
+     padding-top: 100px;
+}
+
+
+ .row-top-spacing-1{
+     padding-top: 70px;
+}
+ .unidel-group-rmcapital p{
+     font-size: 16px;
+}
+.capital-details-section p {
+    font-size: 15px;
+    letter-spacing:-0.8px;
+}
+ @media(max-width: 1200px){
+     .row-top-spacing, .row-top-spacing-1{
+         padding-top: 30px;
+    }
+     .title-bg h2{
+         font-size: 20px;
+    }
+}
+ @media(max-width: 991px){
+     .title-bg h2{
+         font-size: 22px;
+         line-height:27px;
+         padding-left: 22px;
+    }
+     .capital-details-section .border-blck-line{
+         padding-left: 22px;
+    }
+     .great-idea h2{
+         font-size: 17px;
+    }
+     .unidel-group-rmcapital {
+         padding-bottom: 20px !important;
+    }
+     section.unidel-group{
+         margin-bottom: 50px;
+    }
+     .row-top-spacing, .row-top-spacing-1{
+         padding-top: 30px;
+    }
+}
+ @media(max-width: 767px){
+     .unidel-txt h2 {
+         font-size: 22px;
+    }
+     .great-idea h2{
+         font-size: 17px;
+    }
+     .title-bg{
+         height: auto;
+    }
+     .title-bg h2{
+         font-size: 15px;
+         line-height: 27px;
+    }
+     .capital-details-section .border-blck-line{
+         padding-bottom: 20px;
+    }
+     .row-top-spacing, .row-top-spacing-1{
+         padding-top: 30px;
+    }
+    .capital-details-section .capital-txt {
+         padding: 35px 40px 0 0px;
+    }
+    span.capital-city-title{
+      padding-left: 20px;
+    }
+    .capital-details-section p{
+      font-size: 15px;
+    }
+}

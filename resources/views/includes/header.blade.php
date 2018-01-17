@@ -16,6 +16,10 @@
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/ssd.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/careers.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/newsroom.css">
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/trademark.css">
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/cookies.css">
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/rm-capital.css">
+      <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/codeofconduct.css">
       
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="{{ asset('themes/frontend') }}/css/slick.css">
